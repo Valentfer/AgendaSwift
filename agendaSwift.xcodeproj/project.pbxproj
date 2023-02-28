@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E27D55E29AB3FD1001FEE13 /* ModelBaseDatos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6E27D55C29AB3FD1001FEE13 /* ModelBaseDatos.xcdatamodeld */; };
+		6E27D56129AB4A49001FEE13 /* Alumno+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E27D55F29AB4A49001FEE13 /* Alumno+CoreDataClass.swift */; };
+		6E27D56229AB4A49001FEE13 /* Alumno+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E27D56029AB4A49001FEE13 /* Alumno+CoreDataProperties.swift */; };
 		6E40957A299FF42B00692269 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E409579299FF42B00692269 /* AppDelegate.swift */; };
 		6E40957C299FF42B00692269 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E40957B299FF42B00692269 /* SceneDelegate.swift */; };
 		6E40957E299FF42B00692269 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E40957D299FF42B00692269 /* ViewController.swift */; };
@@ -16,7 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6E409576299FF42B00692269 /* valentin_fernandez_fernandez_proyectoSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = valentin_fernandez_fernandez_proyectoSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E27D55D29AB3FD1001FEE13 /* ModelBaseDatos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ModelBaseDatos.xcdatamodel; sourceTree = "<group>"; };
+		6E27D55F29AB4A49001FEE13 /* Alumno+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alumno+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6E27D56029AB4A49001FEE13 /* Alumno+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alumno+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6E409576299FF42B00692269 /* agendaSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = agendaSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E409579299FF42B00692269 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E40957B299FF42B00692269 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6E40957D299FF42B00692269 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +46,9 @@
 		6E40956D299FF42B00692269 = {
 			isa = PBXGroup;
 			children = (
-				6E409578299FF42B00692269 /* valentin_fernandez_fernandez_proyectoSwift */,
+				6E27D55F29AB4A49001FEE13 /* Alumno+CoreDataClass.swift */,
+				6E27D56029AB4A49001FEE13 /* Alumno+CoreDataProperties.swift */,
+				6E409578299FF42B00692269 /* agendaSwift */,
 				6E409577299FF42B00692269 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +56,12 @@
 		6E409577299FF42B00692269 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6E409576299FF42B00692269 /* valentin_fernandez_fernandez_proyectoSwift.app */,
+				6E409576299FF42B00692269 /* agendaSwift.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6E409578299FF42B00692269 /* valentin_fernandez_fernandez_proyectoSwift */ = {
+		6E409578299FF42B00692269 /* agendaSwift */ = {
 			isa = PBXGroup;
 			children = (
 				6E409579299FF42B00692269 /* AppDelegate.swift */,
@@ -63,16 +71,17 @@
 				6E409582299FF43100692269 /* Assets.xcassets */,
 				6E409584299FF43100692269 /* LaunchScreen.storyboard */,
 				6E409587299FF43100692269 /* Info.plist */,
+				6E27D55C29AB3FD1001FEE13 /* ModelBaseDatos.xcdatamodeld */,
 			);
-			path = valentin_fernandez_fernandez_proyectoSwift;
+			path = agendaSwift;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6E409575299FF42B00692269 /* valentin_fernandez_fernandez_proyectoSwift */ = {
+		6E409575299FF42B00692269 /* agendaSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6E40958A299FF43100692269 /* Build configuration list for PBXNativeTarget "valentin_fernandez_fernandez_proyectoSwift" */;
+			buildConfigurationList = 6E40958A299FF43100692269 /* Build configuration list for PBXNativeTarget "agendaSwift" */;
 			buildPhases = (
 				6E409572299FF42B00692269 /* Sources */,
 				6E409573299FF42B00692269 /* Frameworks */,
@@ -82,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = valentin_fernandez_fernandez_proyectoSwift;
+			name = agendaSwift;
 			productName = valentin_fernandez_fernandez_proyectoSwift;
-			productReference = 6E409576299FF42B00692269 /* valentin_fernandez_fernandez_proyectoSwift.app */;
+			productReference = 6E409576299FF42B00692269 /* agendaSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +111,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6E409571299FF42B00692269 /* Build configuration list for PBXProject "valentin_fernandez_fernandez_proyectoSwift" */;
+			buildConfigurationList = 6E409571299FF42B00692269 /* Build configuration list for PBXProject "agendaSwift" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6E409575299FF42B00692269 /* valentin_fernandez_fernandez_proyectoSwift */,
+				6E409575299FF42B00692269 /* agendaSwift */,
 			);
 		};
 /* End PBXProject section */
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E27D56129AB4A49001FEE13 /* Alumno+CoreDataClass.swift in Sources */,
+				6E27D56229AB4A49001FEE13 /* Alumno+CoreDataProperties.swift in Sources */,
 				6E40957E299FF42B00692269 /* ViewController.swift in Sources */,
 				6E40957A299FF42B00692269 /* AppDelegate.swift in Sources */,
+				6E27D55E29AB3FD1001FEE13 /* ModelBaseDatos.xcdatamodeld in Sources */,
 				6E40957C299FF42B00692269 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,7 +311,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.exampl.valentin-fernandez-fernandez-proyectoSwift";
+				PRODUCT_BUNDLE_IDENTIFIER = com.exampl.agendaSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -326,7 +338,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.exampl.valentin-fernandez-fernandez-proyectoSwift";
+				PRODUCT_BUNDLE_IDENTIFIER = com.exampl.agendaSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -337,7 +349,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6E409571299FF42B00692269 /* Build configuration list for PBXProject "valentin_fernandez_fernandez_proyectoSwift" */ = {
+		6E409571299FF42B00692269 /* Build configuration list for PBXProject "agendaSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6E409588299FF43100692269 /* Debug */,
@@ -346,7 +358,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6E40958A299FF43100692269 /* Build configuration list for PBXNativeTarget "valentin_fernandez_fernandez_proyectoSwift" */ = {
+		6E40958A299FF43100692269 /* Build configuration list for PBXNativeTarget "agendaSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6E40958B299FF43100692269 /* Debug */,
@@ -356,6 +368,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6E27D55C29AB3FD1001FEE13 /* ModelBaseDatos.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6E27D55D29AB3FD1001FEE13 /* ModelBaseDatos.xcdatamodel */,
+			);
+			currentVersion = 6E27D55D29AB3FD1001FEE13 /* ModelBaseDatos.xcdatamodel */;
+			path = ModelBaseDatos.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 6E40956E299FF42B00692269 /* Project object */;
 }
